@@ -14,7 +14,7 @@ declare_args() {
 
   # Whether to use the default sysroot when building for Linux, if an explicit
   # sysroot isn't set.
-  use_default_linux_sysroot = true
+  use_default_linux_sysroot = false
 
   # The absolute path to the Xcode toolchain. This is used to look for headers
   # that usually ship with the toolchain like c++/v1.
