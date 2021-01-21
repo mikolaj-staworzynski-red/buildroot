@@ -686,6 +686,10 @@ if (is_win) {
   if (allow_deprecated_api_calls) {
     default_warning_flags += [ "-Wno-deprecated-declarations" ]
   }
+
+  default_warning_flags += [
+    "-Wno-unknown-warning-option",
+  ]
 }
 
 # chromium_code ---------------------------------------------------------------
