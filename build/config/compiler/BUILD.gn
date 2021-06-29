@@ -689,6 +689,7 @@ if (is_win) {
 
   default_warning_flags += [
     "-Wno-unknown-warning-option",
+    "-Wno-deprecated-declarations",
   ]
 }
 
