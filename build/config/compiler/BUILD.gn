@@ -790,7 +790,7 @@ config("optimize") {
   } else if (is_wasm) {
     cflags = [ "-Oz" ]
   } else {
-    cflags = [ "-O2" ] + common_optimize_on_cflags
+    cflags = [ "-Os" ] + common_optimize_on_cflags
   }
 
   lto_flags = []
